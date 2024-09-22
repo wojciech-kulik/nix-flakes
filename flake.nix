@@ -3,7 +3,7 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
-    cocoapods.url = "path:./cocoapods";
+    cocoapods.url = "github:wojciech-kulik/nix-flakes?dir=cocoapods";
     cocoapods.inputs.nixpkgs.follows = "nixpkgs";
   };
 
