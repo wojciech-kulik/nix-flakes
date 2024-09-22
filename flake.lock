@@ -7,14 +7,19 @@
         ]
       },
       "locked": {
-        "lastModified": 1,
-        "narHash": "sha256-P94LmRVoaKRF1ByQkFFyKTp5UQsuyXzMBeg9cuACUX4=",
-        "path": "./cocoapods",
-        "type": "path"
+        "dir": "cocoapods",
+        "lastModified": 1727008937,
+        "narHash": "sha256-30nuv/mQP1D6d+m/+ccl+DzgVAkM23arAYlTwodtBOg=",
+        "owner": "wojciech-kulik",
+        "repo": "nix-flakes",
+        "rev": "20219048f292f26ca7624b2fab3aef355842dc09",
+        "type": "github"
       },
       "original": {
-        "path": "./cocoapods",
-        "type": "path"
+        "dir": "cocoapods",
+        "owner": "wojciech-kulik",
+        "repo": "nix-flakes",
+        "type": "github"
       }
     },
     "nixpkgs": {
