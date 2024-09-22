@@ -3,15 +3,11 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
-    cocoapods.url = "path:./cocoapods";
+    cocoapods.url = "github:wojciech-kulik/nix-flakes/cocoapods";
     cocoapods.inputs.nixpkgs.follows = "nixpkgs";
   };
 
-  outputs = { self, nixpkgs, cocoapods }:
-    let
-      pkgs = nixpkgs.legacyPackages.aarch64-darwin;
-    in
-    {
+  outputs = { self, cocoapods }: {
       devShells.aarch64-darwin = {
         cocoapods = cocoapods.devShells.aarch64-darwin.default;
       };
