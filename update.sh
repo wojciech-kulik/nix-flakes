@@ -10,4 +10,5 @@ nix flake update
 nix flake update --flake my
 
 git add .
+git commit -m "Update gems"
 git push
