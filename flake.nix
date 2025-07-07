@@ -12,6 +12,7 @@
     in
     {
       devShells.${system} = {
+        default = import ./cocoapods { inherit pkgs; };
         cocoapods = import ./cocoapods { inherit pkgs; };
       };
     };
