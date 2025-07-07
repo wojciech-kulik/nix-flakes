@@ -70,7 +70,7 @@ GEM
     colored2 (3.1.2)
     concurrent-ruby (1.3.5)
     connection_pool (2.5.3)
-    dotenv (3.1.4)
+    dotenv (3.1.8)
     drb (2.2.3)
     escape (0.0.4)
     ethon (0.16.0)
@@ -121,6 +121,8 @@ DEPENDENCIES
   cocoapods
   cocoapods-keys
   ffi (= 1.15.5)
+  logger (= 1.7.0)
+  rexml (= 3.4.1)
 
 BUNDLED WITH
    2.5.22
